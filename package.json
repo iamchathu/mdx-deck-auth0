@@ -2,7 +2,7 @@
   "name": "mdx-deck-auth0",
   "version": "1.0.0-alpha.0",
   "description": "MDX Deck theme and components for Auth0 ",
-  "main": "dist/index.js",
+  "main": "index.js",
   "repository": "https://github.com/iamchathu/mdx-deck-auth0.git",
   "author": "Chathu Vishwajith <iam@chatu.me>",
   "license": "MIT",
@@ -22,5 +22,8 @@
     "hooks": {
       "pre-commit": "lint-staged"
     }
+  },
+  "peerDependencies": {
+    "@emotion/core": "^10.0.10"
   }
 }
