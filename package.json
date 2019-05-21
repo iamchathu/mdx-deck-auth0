@@ -1,0 +1,26 @@
+{
+  "name": "mdx-deck-auth0",
+  "version": "1.0.0",
+  "description": "MDX Deck theme and components for Auth0 ",
+  "main": "dist/index.js",
+  "repository": "https://github.com/iamchathu/mdx-deck-auth0.git",
+  "author": "Chathu Vishwajith <iam@chatu.me>",
+  "license": "MIT",
+  "devDependencies": {
+    "husky": "^2.3.0",
+    "lint-staged": "^8.1.7"
+  },
+  "lint-staged": {
+    "linters": {
+      "**/+(src|test)/**/*.js": [
+        "prettier --write",
+        "git add"
+      ]
+    }
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  }
+}
