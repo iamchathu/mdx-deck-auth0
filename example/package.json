@@ -1,0 +1,17 @@
+{
+  "name": "mdx-deck-auth0-sample",
+  "version": "1.0.0-alpha.1",
+  "description": "Sample Presentation to test MDX-Deck-Auth0 Theme and Components",
+  "author": "Chathu Vishwajith <iam@chathu.me>",
+  "license": "MIT",
+  "scripts": {
+    "build": "mdx-deck build presentation.mdx",
+    "postbuild": "yarn build:pdf",
+    "build:pdf": "mdx-deck pdf presentation.mdx",
+    "start": "mdx-deck presentation.mdx"
+  },
+  "devDependencies": {
+    "mdx-deck": "^2.3.2"
+  },
+  "private": true
+}
