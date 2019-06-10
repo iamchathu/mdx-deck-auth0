@@ -1,6 +1,6 @@
 {
   "name": "mdx-deck-auth0",
-  "version": "1.0.0-alpha.0",
+  "version": "1.0.0-alpha.1",
   "description": "MDX Deck theme and components for Auth0 ",
   "main": "index.js",
   "repository": "https://github.com/iamchathu/mdx-deck-auth0.git",
