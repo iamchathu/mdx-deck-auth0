@@ -1,0 +1,40 @@
+import { Center, Welcome } from '../Layout';
+
+import { default as defaultTheme } from '@mdx-deck/themes';
+import Auth0 from '../';
+import highlight from '@mdx-deck/themes/syntax-highlighter-prism';
+
+export const themes = [defaultTheme, Auth0, highlight];
+
+<Welcome>
+
+# Auth0 as Identity Management
+
+## Identity as a Service
+
+Some Text
+
+</Welcome>
+
+---
+
+## Second Slide
+
+---
+
+```java
+public String fizzBuzz(int n){
+  String s = "";
+  if (n == 0)
+    return s;
+  if((n % 5) == 0)
+    s = "Buzz" + s;
+  if((n % 3) == 0)
+    s = "Fizz" + s;
+  if (s.equals(""))
+    s = n + "";
+  return fizzBuzz(n-1) +  s;
+}
+```
+
+---
