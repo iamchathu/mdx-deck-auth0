@@ -1,3 +1,5 @@
+import Main from './Main';
 import Center from './Center';
+import Welcome from './Welcome';
 
-export { Center };
+export { Main, Center, Welcome };
