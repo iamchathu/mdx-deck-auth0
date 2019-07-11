@@ -13,8 +13,5 @@
   "devDependencies": {
     "mdx-deck": "^2.3.2"
   },
-  "private": true,
-  "peerDependencies": {
-    "react": "^16.8.6"
-  }
+  "private": true
 }
